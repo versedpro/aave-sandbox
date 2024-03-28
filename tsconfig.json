@@ -9,11 +9,11 @@
         "resolveJsonModule": true
     },
     "include": [
-        "tasks",
-        "helpers",
-        "config",
-        "tests",
-        "typechain-types",
+        "./tasks",
+        "./helpers",
+        "./config",
+        "./tests",
+        "./typechain-types",
      ],
      "files": ["./hardhat.config.ts"]
 

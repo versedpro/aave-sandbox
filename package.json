@@ -28,7 +28,7 @@
   },
   "scripts": {
     "compile": "SKIP_LOAD=true hardhat compile",
-    "node:eth:subtask": "env-cmd --use-shell \"hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_KEY} --fork-block-number 13822673\"",
+    "node:eth:subtask": "env-cmd --use-shell \"hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/${ALCHEMY_KEY} --fork-block-number 19533721\"",
     "node:eth": "npm run compile && env-cmd --use-shell \"npm run node:eth:subtask\"",
     "node": "npx hardhat node",
     "node:fork:arc": "MARKET=arc npm run node:eth",
